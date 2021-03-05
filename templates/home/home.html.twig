@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block title 'Home' %}
+
+{% block body %}
+    <h2>Formulaire</h2>
+    <form action="">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="">Premier</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="2">Deuxieme</label>
+                    <input type="text" class="form-control" id="2">
+                </div>
+            </div>
+        </div>
+    </form>
+    {{ dump(app) }}
+{% endblock %}
